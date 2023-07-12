@@ -1,0 +1,10 @@
+string question1 = "Как вас зовут?";
+string name = "Андрей";
+string question2 = "Сколько вам лет?";
+string age = "40";
+string question3 = "Какой ваш знак зодиака?";
+string Zodiac = "Рыбы";
+string question4 = "Кем вы работаете?";
+string work = "Кассиром";
+Console.WriteLine($"Вас зовут {name}. Вам {age} лет. Вы {Zodiac} и работаете {work}.");
+Console.ReadKey();
